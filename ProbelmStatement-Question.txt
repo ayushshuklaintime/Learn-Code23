@@ -1,0 +1,19 @@
+Problem Statement:
+ 
+We have 100 locations along with their latitude and longitude in an excel sheet.  Using this data we need to create clusters of locations that falls in the radius of 10 degree Latitude. (Updated: Creating clusters of locations based on a radius in terms of latitude (as latitude lines are not equidistant), you need to calculate a spherical distance based on latitude. You can use the Haversine formula to account for the Earth's curvature.)
+ 
+Input data Eg: 
+Location	Latitude	Longitude
+Location 1	 10° 00' N 60° 00' E
+Location 2	 90° 02' N 60° 00' E
+Location 3	 60° 04' N 60° 00' E
+Location 4	 30° 06' N 80° 00' E
+Location 5	 20° 08' N 60° 00' E
+Location 6	 30° 10' N 60° 00' E
+Location 7	 80° 12' N 60° 00' E
+Location 8	 80° 14' N 60° 00' E
+Location 9	 10° 16' N 60° 00' E
+Location 10	 30° 18' N 60° 00' E
+
+Location 6, Location 10 will be in one cluster. 
+Do not use inbuilt functions to solve this problem. 
