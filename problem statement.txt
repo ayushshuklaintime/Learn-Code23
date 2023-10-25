@@ -1,0 +1,1 @@
+Write a program which uses 3 oops concepts.
